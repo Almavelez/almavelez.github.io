@@ -21,7 +21,10 @@
   <script type="module"
     src="cmp/mi-footer.js">
     </script>
-           
+   <script type="module"
+    src="cmp/nav-resp.js">
+     </script>
+        
     <script src="js/regSw.js">
     </script>
     <!--
@@ -36,6 +39,8 @@
       Debe ponerse en la raíz de
       la página.
     -->
+    <link rel="icon" sizes="32x32"
+      href="favicon.ico">
     <!--
       Configuración de la PWA para
       Chrome y Edge.
@@ -74,6 +79,8 @@
     <script type="module"
       src="cmp/mi-nav.js">
       </script>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="cmp/nav-resp.js"></script>
      
   </head>
    <body>
@@ -107,7 +114,6 @@
               </output>
             </label>
           </p>
-                
           <p>
             <label>
               Entrada
@@ -127,13 +133,10 @@
           <mi-footer></mi-footer>
         </div>
 
-         <link rel="icon" sizes="32x32"
-      href="favicon.ico">
-      <script src="http://code.jquery.com/jquery-latest.js"></script>
-          <script src="cmp/nav-resp.js"></script>
+        
         <script type="module"
           src="js/CtrlMovil.js">
           </script>
-        
+          
   </body>
 </html>
