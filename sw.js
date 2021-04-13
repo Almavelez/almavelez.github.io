@@ -31,6 +31,7 @@ const ARCHIVOS = [
   "css/estilos.css",
   "css/mi-nav.css",
   "css/fonts.css",
+  "css/nav-resp.css",
   "fonts/icomoon.eot",
   "fonts/icomoon.html",
   "fonts/icomoon.eot.ttf",
